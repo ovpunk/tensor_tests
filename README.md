@@ -14,13 +14,13 @@ cd <название репозитория>
 
 ### 2. Создать и активировать виртуальное окружение для проекта:
 ```
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 ### 3. Установить зависимости из файла requirements.txt:
 ```
-python -m pip install --upgrade pip
-python pip install -r requirements.txt
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 ### 4. Запустить тесты
